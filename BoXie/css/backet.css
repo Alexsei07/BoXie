@@ -1,0 +1,20 @@
+.backet-text-p{
+    padding-bottom: 30px;
+}
+
+.backet-text-p p{
+    padding-left: 30px;
+}
+
+.main-basket-items{
+    padding: 100px 100px 200px;
+}
+.p-bas{
+    margin-bottom: 18px;
+}
+
+.main-basket-items p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}

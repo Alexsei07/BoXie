@@ -1,0 +1,24 @@
+@media (max-width: 580px) { 
+    .med-nav{
+        display: none;
+    }
+
+    .main-heading p{
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .main-heading-p{
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+
+ }
+
+ @media (max-width: 992px) { 
+
+    .basket_price-text{
+        text-align: start;
+    }
+ }
