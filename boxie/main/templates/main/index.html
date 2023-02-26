@@ -1,0 +1,78 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+BoXie - Гланая
+{% endblock %}
+
+{% block modal %}
+    <div class="modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header mod-he">
+                            <a href="/">
+                                <button class="btn nav-hover modal-btn">> Вход</button>
+                            </a>
+                            <button class="btn nav-hover modal-btn" data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal">> Регистрация</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mod-bo">
+                            <form class="mod-bo-form">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail-1" class="form-label mod-form-lab">Логин или
+                                        Email</label>
+                                    <input type="email" class="form-control mod-form-input" id="exampleInputEmail-1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword-1" class="form-label mod-form-lab">Пароль</label>
+                                    <input type="password" class="form-control mod-form-input"
+                                        id="exampleInputPassword-1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content mod-he">
+                        <div class="modal-header">
+                            <button class="btn nav-hover modal-btn" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal">> Вход</button>
+                            <button class="btn nav-hover modal-btn">> Регистрация</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body mod-bo">
+                            <form class="mod-bo-form">
+                                <div class="mb-3">
+                                    <label for="exampleInputText-2" class="form-label mod-form-lab">Имя</label>
+                                    <input type="text" class="form-control mod-form-input" id="exampleInputText-2"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail-2" class="form-label mod-form-lab">Логин</label>
+                                    <input type="email" class="form-control mod-form-input" id="exampleInputEmail-2"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail-3" class="form-label mod-form-lab">Email</label>
+                                    <input type="email" class="form-control mod-form-input" id="exampleInputEmail-3"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword-4" class="form-label mod-form-lab">Пароль</label>
+                                    <input type="password" class="form-control mod-form-input" id="exampleInputPassword-4">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword-5" class="form-label mod-form-lab">Повторите пароль</label>
+                                    <input type="password" class="form-control mod-form-input" id="exampleInputPassword-5">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{% endblock %}
